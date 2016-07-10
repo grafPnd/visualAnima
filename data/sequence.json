@@ -1,0 +1,11 @@
+var sequence = [{
+	duration: 10000,
+	temp: 1200,
+	name: 'cube_move'
+	},
+	{
+	duration: 10000,
+	temp: 10,
+	name: 'circle_grow'
+	}
+];
