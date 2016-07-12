@@ -9,13 +9,3 @@ Object.prototype.appendStyle = function(namespace){
 		this.style[i] = namespace[i];
 	}
 }
-function setDeathTime(data){
-	data.master.deathTime = Date.now() + data.duration;
-	// data.duration;
-	// data.master
-	// console.log('death:',data.master.deathTime)
-}
-function deathtime(data){
-	// console.log('now-', Date.now(), 'death-', data.master.deathTime)
-	return Date.now() >= data.master.deathTime;
-}
