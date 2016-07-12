@@ -1,19 +1,14 @@
 $(window).on('runAnimation', function(e, data){
-	if(data.meta.name == 'cube_move'){
-		var
-			cube = $('<div>'),
-			interval,timeout;
-function random(min, max) {
-    return Math.random() * (max - min) + min;
-}
-		$(data.screen).empty().append(cube);
-		cube/*centeryse().fadeFromDot()*/.css({background:'red',width:'100px',height:'100px',top:'50%',left:'50%',position:'absolute'});
-		interval = setInterval(function(){
-			cube.animate({top: random(0,500) + 'px', left: random(0,500)}, data.meta.temp)
-		},data.meta.temp);
-		timeout = setTimeout(function(){
-			clearInterval(interval);
+	if(data.name == 'cube_move'){
+		console.log('cube script');
+		data.master.fig[0]/*centeryse().fadeFromDot()*/.appendStyle({background:'red',width:'100px',height:'100px',top:'50%',left:'50%',position:'absolute',borderRadius:0});
+		data.master.runner = setInterval(function(){
+			data.master.fig[0].appendStyle({top: rand(0,500) + 'px', left: rand(0,500)})
+		},data.temp);
+		data.master.duration = setTimeout(function(){
+			clearInterval(data.master.runner);
 			$(window).trigger('finishedAnimation');
-		},data.meta.duration);
+		},data.duration);
 	}
+	$(window).off('runAnimation');
 })

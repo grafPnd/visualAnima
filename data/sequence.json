@@ -1,11 +1,17 @@
-var sequence = [{
+var sequence = [
+	//{
+	//duration: 10000,
+	//temp: 1200,
+	//name: 'cube_move'
+	//},
+	{
 	duration: 10000,
-	temp: 1200,
-	name: 'cube_move'
+	temp: 20,
+	name: 'circle_grow'
 	},
 	{
 	duration: 10000,
-	temp: 10,
-	name: 'circle_grow'
+	temp: 20,
+	name: 'circle_grow2'
 	}
 ];
