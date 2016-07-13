@@ -5,13 +5,13 @@ var sequence = [
 	//name: 'cube_move'
 	//},
 	{
-	duration: 10000,
-	temp: 20,
+	duration: 5000,
+	temp: 10,
 	name: 'circle_grow'
 	},
 	{
-	duration: 10000,
-	temp: 20,
+	duration: 5000,
+	temp: 10,
 	name: 'circle_grow2'
 	}
 ];

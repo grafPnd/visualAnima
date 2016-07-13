@@ -1,5 +1,6 @@
 body{
-	background:black;
+	background-image: url(../img/tile.png);
+	background-repeat:repeat;
 }
 .masterScreen{
 	position:absolute;
