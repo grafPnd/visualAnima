@@ -13,5 +13,15 @@ var sequence = [
 	duration: 5000,
 	temp: 10,
 	name: 'circle_grow2'
+	},
+	{
+	duration: 5000,
+	temp: 10,
+	name: 'circle_grow3'
+	},
+	{
+	duration: 5000,
+	temp: 10,
+	name: 'circle_grow4'
 	}
 ];
