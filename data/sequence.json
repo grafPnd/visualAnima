@@ -23,5 +23,10 @@ var sequence = [
 	duration: 5000,
 	temp: 10,
 	name: 'circle_grow4'
+	},
+	{
+	duration: 5000,
+	temp: 10,
+	name: 'back_slicing'
 	}
 ];
